@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Introduction to JavaScript — Neon Style</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {font-family: 'Poppins', sans-serif;}
+    .neon-text {text-shadow: 0 0 5px #00fff0, 0 0 10px #00fff0, 0 0 20px #00fff0, 0 0 40px #00fff0;}
+    .neon-box {box-shadow: 0 0 10px #00fff0, 0 0 20px #00fff0, 0 0 40px #00fff0, 0 0 80px #00fff0;}
+    .neon-btn:hover {box-shadow: 0 0 20px #00fff0, 0 0 40px #00fff0;}
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#020617] to-black flex items-center justify-center p-10 text-white">
+  <div class="max-w-5xl w-full grid md:grid-cols-2 gap-10">
+    <div class="bg-black/40 neon-box rounded-2xl p-8 border border-cyan-500/30">
+      <div class="flex items-center gap-4 mb-6">
+        <div class="h-14 w-14 flex items-center justify-center text-black font-bold text-xl bg-gradient-to-r from-cyan-400 to-pink-500 rounded-lg">JS</div>
+        <div>
+          <h1 class="text-2xl font-semibold neon-text">Introduction to JavaScript</h1>
+          <p class="text-gray-400 text-sm">A premium, visually striking introduction to the language of the web.</p>
+        </div>
+      </div>
+      <ul class="list-disc list-inside text-gray-300 space-y-1">
+        <li>Learn what JavaScript is</li>
+        <li>Understand its basic syntax</li>
+        <li>Discover how it adds interactivity</li>
+        <li>Explore modern features like ES6+</li>
+      </ul>
+      <button class="mt-6 bg-gradient-to-r from-cyan-400 to-pink-500 text-black font-semibold px-6 py-2 rounded-lg transition neon-btn">Start Learning</button>
+    </div>
+
+    <div class="space-y-6">
+      <div class="bg-black/40 neon-box rounded-2xl p-6 border border-cyan-500/30">
+        <h2 class="text-lg font-semibold neon-text mb-2">What is JavaScript?</h2>
+        <p class="text-gray-300 text-sm leading-relaxed">JavaScript is a high-level programming language that makes web pages interactive. It works alongside HTML and CSS to create dynamic, engaging experiences on the web.</p>
+      </div>
+
+      <div class="bg-black/40 neon-box rounded-2xl p-6 border border-cyan-500/30">
+        <h2 class="text-lg font-semibold neon-text mb-2">Why Learn JavaScript?</h2>
+        <ul class="list-disc list-inside text-gray-300 space-y-1 text-sm">
+          <li>It’s the most widely used web language.</li>
+          <li>It runs in every modern browser.</li>
+          <li>Used for both frontend and backend (Node.js).</li>
+          <li>Vital for modern web development.</li>
+        </ul>
+      </div>
+
+      <div class="bg-black/40 neon-box rounded-2xl p-6 border border-cyan-500/30">
+        <h2 class="text-lg font-semibold neon-text mb-2">Sample Syntax</h2>
+        <pre class="bg-black/60 p-4 rounded text-sm text-cyan-300 overflow-auto">// Declaring a variable
+// JavaScript Basic Functions
+
+alert('Assalam u Alaikum! 🌙');
+confirm('Do you want to learn JavaScript?');
+console.log("Welcome to JavaScript — Let's start exploring!");
+
+// JavaScript Data Types
+console.log("✨ JavaScript Data Types:");
+console.log("1️⃣ String");
+console.log("2️⃣ Number");
+console.log("3️⃣ Boolean");
+console.log("4️⃣ Object");
+console.log("5️⃣ Array");
+console.log("6️⃣ Undefined");
+console.log("7️⃣ Null");
+console.log("8️⃣ Symbol");
+console.log("9️⃣ BigInt");
+
+// Summary / Explanation
+console.log(`
+🧠 Summary:
+
+👉 alert() is used to show a message in a pop-up box on the screen.
+👉 confirm() asks a Yes/No question and returns true or false.
+👉 console.log() displays information in the browser console (for developers).
+
+💡 Data Types in JavaScript:
+- String: Represents text (like names or words)
+- Number: Represents numeric values
+- Boolean: True or False values
+- Object: Used to store multiple values together
+- Array: A list or collection of items
+- Undefined: A variable declared but not assigned any value
+- Null: Represents an empty or non-existent value
+- Symbol: Unique and immutable data type used for identifiers
+- BigInt: Used for handling very large numbers
+
+🚀 JavaScript is flexible, dynamic, and perfect for building interactive websites!
+`);
+
+</pre>
+      </div>
+      <div class="w-full text-center mt-10">
+  <a href="qs.html"
+     class="bg-gradient-to-r from-cyan-400 to-pink-500 text-black font-semibold px-8 py-3 rounded-lg neon-btn transition hover:scale-105 inline-block">
+     Go to Assignment Page
+  </a>
+</div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
